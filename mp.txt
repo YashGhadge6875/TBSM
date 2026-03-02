@@ -295,4 +295,8 @@ for iteration in range(max_iters):
 print("\nFinal Centroids:")
 print(centroids)
 
+db.FirstTab.deleteMany({Name:{$in:["A","B"]}})
+
+
+
 
